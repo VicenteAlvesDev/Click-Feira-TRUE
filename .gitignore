@@ -1,0 +1,14 @@
+# Credenciais e dados locais - NUNCA versionar
+config/config.php
+.env
+*.log
+*.bak
+*.mwb
+test.php
+
+# Fotos enviadas pelos usuários
+uploads/products/*
+uploads/profiles/*
+uploads/stalls/*
+!uploads/**/index.php
+!uploads/.htaccess
